@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 15%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body {
 
 .logo {
     font-size: 30px;
-    color: #ededed;
+    color: #ff2222;
     text-decoration: none;
     font-weight: 900;
 }
@@ -126,4 +126,74 @@ body {
     border-style: solid;
     border-width: 10px;
     box-shadow:  0px 0px 100px #ff00007b;
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite;
+    transform-origin: 90% 90%;     
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+/* css for about page */
+
+.about  {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    background-color: #ff2222;
+    margin: 5%;
+}
+
+.about-text {
+    display: flex;
+    font-size: 22px;
+    margin: 5%;
+    color: #ededed;
+}
+
+.about-content-text {
+    display: flex;
+    margin: 5%;
+}
+
+.box {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background-color: #5a5a5a25;
+    border-radius: 40px;
+    border-color: #b7b7b73a;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.about-tittle {
+    color: #ededed;
+    margin: 5%;
+    font-size: 22px;
+}
+
+.hr-tittle {
+    border-color: #ff2222;
+    border-width: 2px;
 }
