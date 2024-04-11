@@ -86,6 +86,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    margin-right: 8%;
 }
 
 .home-content h1 {
@@ -120,12 +121,14 @@ body {
 
 .avatar {
     transform: rotateY(180deg);
-    width: 500px;
+    width: 450px;
     border-radius: 100%;
     border-color: #ff000078;
     border-style: solid;
     border-width: 10px;
     box-shadow:  0px 0px 100px #ff00007b;
+    max-width: 100%;
+    height: auto;
 }
 
 .wave {
@@ -197,3 +200,4 @@ body {
     border-color: #ff2222;
     border-width: 2px;
 }
+
