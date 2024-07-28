@@ -1,0 +1,164 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background-color: #121212;
+    }
+
+    .header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 15%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+.logo {
+    font-size: 30px;
+    color: #ff2222;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.github {
+    color: #ededed;
+    text-decoration: none;
+
+}
+
+.round {
+    border-radius: 9999px;
+}
+
+.small-w {
+    width: 2.25rem;
+}
+
+
+.navbar a {
+    font-size: 23px;
+    color: #585858;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 25px;
+    align-items: center;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.navbar a:hover { 
+    color: #757575;
+    opacity: 1;
+}
+
+
+.active-button{
+    color: aqua;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff0000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ff0000;
+}
+
+.service, .project {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+blockquote {
+    background-color: #333;
+    padding: 20px;
+    border-left: 5px solid #ff0000;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+}
