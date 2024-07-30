@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
 /* Estilos Globais */
 * {
     margin: 0;
@@ -67,4 +65,79 @@ body {
 
 .active-button {
     color: aqua;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 10%;
+    }
+
+    .navbar a {
+        margin: 15px;
+        font-size: 18px;
+    }
+
+    .home {
+        padding: 0 10%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content h4 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .avatar {
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .navbar a {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content h4 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .avatar {
+        width: 250px;
+    }
 }
