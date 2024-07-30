@@ -1,0 +1,71 @@
+@import url('style.css');
+
+/* Página Home */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.home-content {
+    max-width: 600px;
+    margin-right: 8%;
+}
+
+.home-content h1 {
+    color: #ededed;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    background-image: linear-gradient(45deg, #ededed, #ff2424);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.home-content h4 {
+    font-size: 25px;
+    color: #ff2222;
+    font-weight: 700;
+}
+
+.home-content p {
+    font-size: 20px;
+    color: #ededed;
+}
+
+.avatar {
+    transform: rotateY(180deg);
+    width: 450px;
+    border-radius: 100%;
+    border: 10px solid #ff000078;
+    box-shadow: 0px 0px 100px #ff00007b;
+    max-width: 100%;
+    height: auto;
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite;
+    transform-origin: 90% 90%;     
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0%, 60%, 100% { transform: rotate(0.0deg); }
+    10% { transform: rotate(14.0deg); }
+    20% { transform: rotate(-8.0deg); }
+    30% { transform: rotate(14.0deg); }
+    40% { transform: rotate(-4.0deg); }
+    50% { transform: rotate(10.0deg); }
+}

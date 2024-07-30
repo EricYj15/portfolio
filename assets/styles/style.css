@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ff2222;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.github {
+    color: #ededed;
+    text-decoration: none;
+}
+
+.round {
+    border-radius: 9999px;
+}
+
+.small-w {
+    width: 2.25rem;
+}
+
+.navbar a {
+    font-size: 23px;
+    color: #585858;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 25px;
+    align-items: center;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.navbar a:hover { 
+    color: #757575;
+    opacity: 1;
+}
+
+.active-button {
+    color: aqua;
+}
